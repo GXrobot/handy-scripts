@@ -1,5 +1,5 @@
 
-
+#python3
 #compare_folders.py
 
 import os
@@ -7,7 +7,7 @@ import os
 
 print("Welcome to a program for synchronizing files between two directories")
 
-source = raw_input("Please enter the source directory path: ")
+source = input("Please enter the source directory path: ")
 
 #See if the Source path exists
 try:
@@ -18,7 +18,7 @@ except OSError:
 
 
 
-target = raw_input("Please enter the target directory path: ")
+target = input("Please enter the target directory path: ")
 
 
 #See if the target path exists
